@@ -52,6 +52,10 @@ function onOpen() {
   /*.addSubMenu(ui.createMenu('Sub-menu')
               .addItem('Test ViviType', 'fillViviType'))*/
   .addToUi();
+  
+  ui.createMenu('SideBar Helper')
+  .addItem('Open SideBar', 'openSideBar')
+  .addToUi();
 }
 
 var start = 0;
