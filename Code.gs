@@ -56,6 +56,8 @@ function onOpen() {
   ui.createMenu('SideBar Helper')
   .addItem('Open SideBar', 'openSideBar')
   .addToUi();
+
+  openSideBar();
 }
 
 var start = 0;
